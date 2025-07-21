@@ -8,6 +8,10 @@
 
 # LIST OF PACKAGES (AS OF LATE-JULY, 2025) --------------------------
 
+# Installing the packages
+
+renv::restore()
+
 # Suite of Packages for Day 1
 
 library(ggdist)
@@ -73,7 +77,3 @@ library(gtsummary)
 library(panelr)
 library(remotes)
 library(GGally)
-
-
-# LOAD PACKAGES -----------------------------------------------------------
-
