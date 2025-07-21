@@ -10,29 +10,70 @@
 
 # Suite of Packages for Day 1
 
-day1 <- c("ggdist", "ggtext", "ggridges", "ggrepel", 
-          "lattice", "skimr", "summarytools", "tinyplot",
-          "ggraph", "lemon", "colorspace",
-          "gglgbtq", "paletteer", "see", "hrbrthemes",
-          "ggthemes", "LexisPlotR", "demography", "forecast",
-          "gapminder",  "palmerpenguins", "tidyverse", "systemfonts")
+library(ggdist)
+library(ggtext)
+library(ggridges)
+library(ggrepel)
+library(lattice)
+library(skimr)
+library(summarytools)
+library(tinyplot)
+library(ggraph)
+library(lemon)
+library(colorspace)
+library(gglgbtq)
+library(paletteer)
+library(see)
+library(hrbrthemes)
+library(ggthemes)
+library(LexisPlotR)
+library(demography)
+library(forecast)
+library(gapminder)
+library(palmerpenguins)
+library(tidyverse)
+library(systemfonts)
 
 # Suite of Packages for Day 2
 
-day2 <- c("scales", "patchwork", "gganimate", "gifski", "nomisr",
-          "plotly", "htmltools",  "leafpop", "leaflet", 
-          "mapview", "usmapdata", "usmap", "mapcan", "cancensus",
-          "tidycensus",  "geojsonsf", "tidygeocoder",  
-          "rnaturalearthdata", "rnaturalearth", "ggspatial", 
-          "terra", "sp", "sf", "gt", "colorspace")
+library(scales)
+library(patchwork)
+library(gganimate)
+library(gifski)
+library(nomisr)
+library(plotly)
+library(htmltools)
+library(leafpop)
+library(leaflet)
+library(mapview)
+library(usmapdata)
+library(usmap)
+library(mapcan)
+library(cancensus)
+library(tidycensus)
+library(geojsonsf)
+library(tidygeocoder)
+library(rnaturalearthdata)
+library(rnaturalearth)
+library(ggspatial)
+library(terra)
+library(sp)
+library(sf)
+library(gt)
+
 
 # Suite of Packages for Day 3
 
-day3 <- c("estimatr", "ggeffects", "marginaleffects", 
-          "modelsummary", "effects", "gtsummary", "gt", 
-          "ggthemes", "panelr", "remotes", "GGally")
+library(estimatr)
+library(ggeffects)
+library(marginaleffects)
+library(modelsummary)
+library(effects)
+library(gtsummary)
+library(panelr)
+library(remotes)
+library(GGally)
 
 
 # LOAD PACKAGES -----------------------------------------------------------
 
-do.call(pacman::p_load, as.list(c(day1, day2, day3)))
