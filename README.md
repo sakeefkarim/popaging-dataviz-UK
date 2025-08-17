@@ -4,6 +4,12 @@
 
 ### A Three-Day Workshop at the University of Oxford
 
+<h2 style="display: inline-block;">About the Workshop</h2>
+<a href="https://popagingdataviz.uk/" target="_blank">
+    <img src="https://popagingdataviz.uk/images/logo.svg" align="right" width="150" style="margin-left: 20px;">
+</a>
+
+
 `PopAging DataViz—UK` is a three-day workshop on visualising population data within `R`—a powerful, open-source programming language for statistical computing and visualisation. Throughout the workshop, the [`ggplot2`](https://ggplot2.tidyverse.org/) library will serve as our workhorse and lodestar. Over the course of three days, workshop participants will be exposed to many of the principles undergirding the [*grammar of graphics*]{style="text-decoration: underline; text-decoration-color: #324D6B;"} framework for visualising data in systematic fashion—a grammar that serves as the lifeblood of `ggplot2` and its many extensions.
 
 Then, the course will slowly build in complexity. Concretely, participants will be exposed to modules on:
