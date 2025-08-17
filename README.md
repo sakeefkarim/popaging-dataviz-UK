@@ -21,7 +21,7 @@ Then, the course will slowly build in complexity. Concretely, participants will 
 
 -   Visualising statistical quantities of substantive interest (e.g., average marginal effects, counterfactual contrasts, adjusted predictions at representative values) to extract *meaning* from model results.
 
-The workshop will draw on a wide range of packages and a series of hands-on exercises designed to concretise high-level concepts and principles related to data visualisation. All workshop materials are available—and will be maintained—on this repository and the course website.
+The workshop will draw on a wide range of packages and a series of hands-on exercises designed to concretise high-level concepts and principles related to data visualisation. All workshop materials are available—and will be maintained—on this repository and the [course website](https://popagingdataviz.uk/).
 
 ### The Challenge
 
@@ -40,3 +40,7 @@ Cédric Scherer's course on [`Graphic Design with ggplot2`](https://rstudio-conf
 ## Preliminaries
 
 So, what do you need to do before the workshop begins in earnest? Please carefully review [this Netlify document](https://cand3-uk-preworkshop.netlify.app/) for a comprehensive answer.
+
+## License
+
+The text and images embedded in the [course website](https://popagingdataviz.uk/) are licensed pursuant to a under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/). The code contained herein are licensed under a [MIT License](https://github.com/sakeefkarim/popaging-dataviz-UK/blob/main/LICENSE).
