@@ -19,7 +19,7 @@ library(demography)
 #library(covdata)
 #library(cansim)
 #library(WDI)
-library(LexisPlotR)
+#library(LexisPlotR)
 
 # Themes, Colour Schemes
 
