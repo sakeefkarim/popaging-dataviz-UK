@@ -1,8 +1,10 @@
-# `PopAging DataViz—UK`: Visualizing Population Data in `R`
+# `PopAging DataViz—UK`
+
+## Visualising Population Data in `R`
 
 ### A Three-Day Workshop at the University of Oxford
 
-`PopAging DataViz—UK` is a three-day workshop on visualising population data within `R`—a powerful, open-source programming language for statistical computing and visualisation. Throughout the workshop, the [`ggplot2`](https://ggplot2.tidyverse.org/){.external target="_blank"} library will serve as our workhorse and lodestar. Over the course of three days, workshop participants will be exposed to many of the principles undergirding the [*grammar of graphics*]{style="text-decoration: underline; text-decoration-color: #324D6B;"} framework for visualising data in systematic fashion—a grammar that serves as the lifeblood of `ggplot2` and its many extensions.
+`PopAging DataViz—UK` is a three-day workshop on visualising population data within `R`—a powerful, open-source programming language for statistical computing and visualisation. Throughout the workshop, the [`ggplot2`](https://ggplot2.tidyverse.org/) library will serve as our workhorse and lodestar. Over the course of three days, workshop participants will be exposed to many of the principles undergirding the [*grammar of graphics*]{style="text-decoration: underline; text-decoration-color: #324D6B;"} framework for visualising data in systematic fashion—a grammar that serves as the lifeblood of `ggplot2` and its many extensions.
 
 Then, the course will slowly build in complexity. Concretely, participants will be exposed to modules on:
 
@@ -18,11 +20,11 @@ The workshop will draw on a wide range of packages and a series of hands-on exer
 
 ### The Challenge
 
-Contra previous iterations of `PopAging DataViz`, our short course will not culminate with a friendly ["Shark Tank"](https://popagingdataviz.com/shark_tank.html){.external target="_blank"} competition. Instead, participants will be asked to (i) work in pairs; and (ii) produce simple—but elegant—visualisations in `R` with data that we provide. For more information, please click The Challenge tab.
+Contra previous iterations of `PopAging DataViz`, our short course will not culminate with a friendly ["Shark Tank"](https://popagingdataviz.com/shark_tank.html) competition. Instead, participants will be asked to (i) work in pairs; and (ii) produce simple—but elegant—visualisations in `R` with data that we provide. For more information, please click The Challenge tab.
 
 ### Sponsors
 
-This short course is being co-hosted by the *Consortium on Analytics for Data-Driven Decision-Making* ([CAnD3](https://www.mcgill.ca/cand3/){.no-ext-icon target="_blank"}) and their partners at the [Leverhulme Centre for Demographic Science](https://www.demography.ox.ac.uk/){.external target="_blank"} at the University of Oxford.
+This short course is being co-hosted by the *Consortium on Analytics for Data-Driven Decision-Making* ([CAnD3](https://www.mcgill.ca/cand3/)) and their partners at the [Leverhulme Centre for Demographic Science](https://www.demography.ox.ac.uk/) at the University of Oxford.
 
 CAnD3 is hosted at McGill University and supported in part by funding from the [Social Sciences and Humanities Research Council of Canada](https://www.sshrc-crsh.gc.ca/home-accueil-eng.aspx) (SSHRC).
 
