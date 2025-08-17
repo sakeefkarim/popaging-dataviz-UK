@@ -30,7 +30,7 @@ CAnD3 is hosted at McGill University and supported in part by funding from the [
 
 ### Inspirations
 
-Cédric Scherer's course on [`Graphic Design with ggplot2`](https://rstudio-conf-2022.github.io/ggplot2-graphic-design/), Andrew Heiss' [-@heiss2024] course on [`Data Visualization with R`](https://datavizf24.classes.andrewheiss.com/), and the third edition of [`ggplot2: Elegant Graphics for Data Analysis`](https://ggplot2-book.org/) all serve as inspirations for this three-day workshop.
+Cédric Scherer's course on [`Graphic Design with ggplot2`](https://rstudio-conf-2022.github.io/ggplot2-graphic-design/), Andrew Heiss' course on [`Data Visualization with R`](https://datavizf24.classes.andrewheiss.com/), and the third edition of [`ggplot2: Elegant Graphics for Data Analysis`](https://ggplot2-book.org/) all serve as inspirations for this three-day workshop.
 
 ## Preliminaries
 
