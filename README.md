@@ -43,4 +43,4 @@ So, what do you need to do before the workshop begins in earnest? Please careful
 
 ## License
 
-The text and images embedded in the [course website](https://popagingdataviz.uk/) are licensed pursuant to a under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/). The code contained herein are licensed under a [MIT License](https://github.com/sakeefkarim/popaging-dataviz-UK/blob/main/LICENSE).
+The text and images embedded in the [course website](https://popagingdataviz.uk/) are licensed pursuant to a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/). The code contained herein are licensed under a [MIT License](https://github.com/sakeefkarim/popaging-dataviz-UK/blob/main/LICENSE).
