@@ -131,10 +131,10 @@ ls(pattern = '^geom_', env = as.environment('package:ggplot2'))
 
 ggplot(# Note that we're subsetting the data within the ggplot function:
        data = gapminder |>
-       filter(year == max(year)),
+              filter(year == max(year)),
        # Here, we're mapping variables in our data to
        # the 'x' and 'y' positions in our plot space:
-       mapping = aes(x = log(gdpPercap), y = lifeExp)) +
+              mapping = aes(x = log(gdpPercap), y = lifeExp)) +
 geom_point(# Adjusts the colour of the points:
            colour = "#002147",
            # Adjusts the size of the points:
@@ -165,7 +165,7 @@ geom_point(# Adjusts the size of the points:
 # the size of the points corresponds to a country's population in 2007 (logged).
 
 ggplot(data = gapminder |>
-       filter(year == max(year)),
+              filter(year == max(year)),
        mapping = aes(x = log(gdpPercap), 
                      y = lifeExp,
                      colour = continent,
@@ -222,7 +222,7 @@ ggplot(data = select_countries,
        aes(x = year, 
            y = age_dependency,
            # This ensures that we produce unique lines for each country.
-           group = country)) +
+       group = country)) +
 geom_line(colour = "dodgerblue",
           linetype = "dashed")
 
@@ -307,17 +307,17 @@ skim(select_countries_sex)
 # year 2020.
 
 ggplot(data = select_countries_sex |> 
-       filter(year == max(year)),
+              filter(year == max(year)),
        mapping = aes(x = country, y = life_expectancy,
                      # To produce different quantities along 
                      # the lines of sex:
-                     group = sex)) +
+       group = sex)) +
 geom_col(# To ensure that bars are placed
          # side-by-side --- and not stacked!
          position = "dodge", 
          colour = "white") 
 
-?position_
+?position_dodge
 
 # Here's what would happen if our `position` argument was left alone.
 
@@ -373,6 +373,8 @@ geom_boxplot(linewidth = 0.3,
              # has not been subsetted.
              data = select_countries_sex)
 
+# What do you notice about the arguments within the `geom_boxplot()` function?
+
 ggplot(data = select_countries_sex |> 
        filter(year == max(year)) |> 
        # Rearranging the order of the discrete 
@@ -388,8 +390,6 @@ ggplot(data = select_countries_sex |>
               fill = sex)) +
 geom_col(position = "dodge", 
          colour = "white") 
-
-# What do you notice about the arguments within the `geom_boxplot()` function?
 
 # STATISTICAL TRANSFORMATIONS --------------------------------------------------
 
@@ -722,9 +722,9 @@ labs(# Editing x-axis title:
      size = "Population") +
 # Using functions within scales function to clean up labels ---
 # in this case, simply adding a "+" sign
-scale_size_continuous(labels = scales::comma_format(suffix = " +")) 
+scale_size_continuous(labels = scales::label_comma(suffix = " +")) 
 
-?comma_format
+?label_comma
 
 # ADJUSTING THEMES -------------------------------------------------------------
 
@@ -809,7 +809,6 @@ guides(# Rearranging order of legends; colour now appears first.
                              # Overriding aes - all keys are 
                              # at size = 5.
                              override.aes = list(size = 5))) 
-
 
 # ADDITIONAL GEOMS -------------------------------------------------------------
 
@@ -963,9 +962,7 @@ theme(text = element_text(family = "IBM Plex Sans"),
 # Removes all padding around y-axis:
 scale_y_discrete(expand = c(0, 0)) +
 # Removes all padding around x-axis:
-scale_x_continuous(expand = c(0, 0)) +
-# Allows plotting outside of the plot margin/panel:
-coord_cartesian(clip = "off") 
+scale_x_continuous(expand = c(0, 0)) 
 
 # For more palettes, run:
 
