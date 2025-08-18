@@ -25,7 +25,7 @@ The workshop will draw on a wide range of packages and a series of hands-on exer
 
 ### The Challenge
 
-Contra previous iterations of `PopAging DataViz`, our short course will not culminate with a friendly ["Shark Tank"](https://popagingdataviz.com/shark_tank.html) competition. Instead, participants will be asked to (i) work in pairs; and (ii) produce simple—but elegant—visualisations in `R` with data that we provide. For more information, please click The Challenge tab.
+Contra previous iterations of `PopAging DataViz`, our short course will not culminate with a friendly ["Shark Tank"](https://popagingdataviz.com/shark_tank.html) competition. Instead, participants will be asked to (i) work in pairs; and (ii) produce simple—but elegant—visualisations in `R` with data that we provide. For more information, please click [here](https://popagingdataviz.uk/challenge.html).
 
 ### Sponsors
 
