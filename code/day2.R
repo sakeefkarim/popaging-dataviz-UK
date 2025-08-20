@@ -362,6 +362,16 @@ mtl <- canada_cd |>
 # How can we highlight McGill University (see above for some guidance ---
 # or scroll down for the answer!)
 
+
+
+
+
+
+
+
+
+
+
 mtl +
 geom_point(colour = "#ed1b2f",
            size = 3.5,
@@ -374,25 +384,6 @@ geom_label_repel(family = "IBM Plex Sans",
                  data = locations |> slice(2),
                  mapping = aes(x = long, 
                                y = lat,
-                               label = site))
-
-
-
-
-
-
-
-mtl +
-geom_point(colour = "#ed1b2f",
-           size = 3.5,
-           data = locations %>% slice(2),
-           mapping = aes(x = long, y = lat)) +
-geom_label_repel(family = "IBM Plex Sans",
-                 fill = "#ed1b2f",
-                 colour = "white",
-                 nudge_y = 0.15,
-                 data = locations %>% slice(2),
-                 mapping = aes(x = long, y = lat,
                                label = site))
 
 
